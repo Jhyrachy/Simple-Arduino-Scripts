@@ -12,7 +12,7 @@ Programma per creare, con un buzzer ed uno switch, un piccolo apparecchio che si
 # Voltmetro
 Semplice codice per utilizzare l'arduino come voltmetro improvvisato
 
-# Arduino-buzzer-sound-player-and-led
+# Music and Sound
 This project allow the arduino to play on a buzzer music by manually transcribing the pentagram, automatically converting the note to the corresponding sound wave, plus it will bright the led corresponding to the note.
 
 Note  Pin
