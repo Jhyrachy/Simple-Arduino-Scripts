@@ -1,32 +1,41 @@
-# Progetti personali per arduino
-Piccoli progetti personali fatti su arduino con Hardware minimale
+# Personal Arduino Projects
+A collection of small personal projects for Arduino using minimal hardware.
 
+---
 
+## RGB LED Controlled by Gyroscope
+This project reads values from a gyroscope, converting them to a scale from 1 to 255 to adjust the colors of an RGB LED.
 
-# RGB Led controllato dal giroscopio
-Lettura dei valori di un giroscopio e conversione in scala da 1 a 255 per cambiare i colori di un led
+---
 
-# Morse
-Programma per creare, con un buzzer ed uno switch, un piccolo apparecchio che simuli, all'apparenza ed all'udito, un vecchio macchinario per il codice morse
+## Morse Code Machine
+A program to create a small Morse code device using a buzzer and a switch. It simulates the sound and appearance of an old Morse code machine.
 
-# Voltmetro
-Semplice codice per utilizzare l'arduino come voltmetro improvvisato
+---
 
-# Music and Sound
-This project allow the arduino to play on a buzzer music by manually transcribing the pentagram, automatically converting the note to the corresponding sound wave, plus it will bright the led corresponding to the note.
+## Voltmeter
+Simple code that turns an Arduino into a basic voltmeter.
 
-Note  Pin
+---
 
-Do    11
-Re    10
-Mi    9
-Fa    7
-Sol   6
-La    5
-Si    4
+## Music and Sound
+This project enables the Arduino to play music on a buzzer. By manually transcribing sheet music, it automatically converts each note to its corresponding sound frequency and lights up the LED associated with that note.
 
-Buzzer is on pin 8
+### Notes and Pins
 
-There is also a led on pin 13 that will bright for an instant each time a note is played, this is nice to see when the same note is repeated a lot, especially if it's played on a different octave or on diesis or flat (since they are technically the same note the led will blink so fast no one can notice it)
+| Note | Pin |
+|------|-----|
+| Do   | 11  |
+| Re   | 10  |
+| Mi   | 9   |
+| Fa   | 7   |
+| Sol  | 6   |
+| La   | 5   |
+| Si   | 4   |
 
-The code, as it is, will play the Imperial March, from Star Wars
+- **Buzzer:** Pin 8
+- **Status LED:** Pin 13 (lights briefly each time a note is played)
+
+The status LED provides visual feedback, especially helpful when a note repeats often or is played in different octaves. If the note is sharp or flat, the LED blinks so quickly it’s almost imperceptible.
+
+As it stands, the code plays the "Imperial March" from *Star Wars*.
